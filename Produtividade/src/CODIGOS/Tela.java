@@ -59,19 +59,13 @@ public class Tela extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         Planilha planilha = new Planilha();
-        
+           
         Planilha.lerPlanilha("OS_Liberada");
         
         for(int i =0; i < PS.length; i++){
-           if(!(PS[i].equals(null))){
-               if(PS[i].equals("ISMAEL MOURA")){
-//                   System.out.println(PS[i]);
-                    count++;
-               }
-           }
+            System.out.println(PS[i]);
+            count++;     
         }
-        
-        System.out.println(count);
         
     }//GEN-LAST:event_formWindowOpened
 
